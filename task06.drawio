@@ -1,0 +1,94 @@
+<mxfile host="65bd71144e">
+    <diagram id="IVzBVEKQTxkZSXWOQERg" name="Page-1">
+        <mxGraphModel dx="1641" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#E6E6E6" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#000000;shadow=0;backgroundOutline=0;" edge="1" parent="1" source="10" target="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="470" y="200" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="450" y="160"/>
+                            <mxPoint x="620" y="160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="Animal&#10;(Abstract)" style="swimlane;startSize=50;strokeWidth=3;strokeColor=#000000;shadow=0;backgroundOutline=0;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="40" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#000000;shadow=0;backgroundOutline=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="14">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="390" y="340" as="sourcePoint"/>
+                        <mxPoint x="320" y="240" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="350" y="160"/>
+                            <mxPoint x="180" y="160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;strokeColor=#000000;strokeWidth=3;" edge="1" parent="1" source="14" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;strokeColor=#000000;strokeWidth=3;" edge="1" parent="1" source="14" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="120" y="280"/>
+                            <mxPoint x="40" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;strokeColor=#000000;strokeWidth=3;" edge="1" parent="1" source="14" target="19">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="220" y="280"/>
+                            <mxPoint x="300" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="Pet&#10;(Abstract)" style="swimlane;strokeWidth=3;strokeColor=#000000;shadow=0;backgroundOutline=0;startSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="200" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;strokeColor=#000000;strokeWidth=3;" edge="1" parent="1" source="15" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;strokeColor=#000000;strokeWidth=3;" edge="1" parent="1" source="15" target="20">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="580" y="280"/>
+                            <mxPoint x="490" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;strokeColor=#000000;strokeWidth=3;" edge="1" parent="1" source="15" target="22">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="680" y="280"/>
+                            <mxPoint x="760" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="Pack_Animal&#10;(Abstract)" style="swimlane;startSize=30;strokeWidth=3;strokeColor=#000000;shadow=0;backgroundOutline=0;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="200" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Cat" style="swimlane;shadow=0;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="1">
+                    <mxGeometry x="-50" y="320" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Dog" style="swimlane;shadow=0;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="320" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Hamster" style="swimlane;shadow=0;strokeColor=#000000;strokeWidth=3;startSize=23;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="320" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Horse" style="swimlane;shadow=0;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="320" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Camel" style="swimlane;shadow=0;strokeColor=#000000;strokeWidth=3;startSize=23;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="320" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Donkey" style="swimlane;shadow=0;strokeColor=#000000;strokeWidth=3;startSize=23;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="320" width="140" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
