@@ -1,5 +1,5 @@
 
---  7. В подключенном MySQL репозитории создать базу данных “Друзья
+-- 7. В подключенном MySQL репозитории создать базу данных “Друзья
 -- человека” (Human_friends)
 
 CREATE DATABASE IF NOT EXISTS Human_friends;
@@ -101,7 +101,7 @@ INSERT INTO donkeys (animal_name, commands, birthday) VALUES
 TRUNCATE camels;
 
 DROP TABLE IF EXISTS horses_and_donkeys;
-CREATE TABLE IF NOT EXISTS Horses_Donkeys AS
+CREATE TABLE IF NOT EXISTS horses_and_donkeys AS
 SELECT * FROM horses
 UNION ALL
 SELECT * FROM donkeys; 
