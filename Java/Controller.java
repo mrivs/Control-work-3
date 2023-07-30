@@ -51,8 +51,11 @@ public class Controller {
         System.out.println("Кого добавить?");
         System.out.println(addmenu);
         int n = input();
-        if (n > 6 || n < 1)
+        if (n > 6 || n < 1){
+            System.out.println("Никто не добавлен");
             return;
+        }
+           
         System.out.print("Введите имя: ");
         String name = scanner.nextLine();
         System.out.print("Введите дату рождения (dd-MM-yyyy): ");
@@ -60,6 +63,7 @@ public class Controller {
         try {
             Date birthday = DateConverter.convertStringToDate(date);
             PetReg.addAnimal(name, birthday, n);
+            System.out.println("Животное добавлено");
 
         } catch (Exception e) {
             System.out.println("Неверный формат даты");

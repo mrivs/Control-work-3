@@ -7,7 +7,7 @@ public class Donkey extends PackAnimal {
     public Donkey(String animal_name, Date birthday) {
         super(animal_name, birthday);
         this.className="Donkey";
-        //TODO Auto-generated constructor stub
+        
     }
     
 }

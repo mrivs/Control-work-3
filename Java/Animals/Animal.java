@@ -38,7 +38,7 @@ public abstract class Animal {
 
     public String getCommands() {
         if (commands.isEmpty()) {
-            return "Команд нет";
+            return "у животного команд нет";
         } else
             return "Команды: "+commands.toString();
     }
