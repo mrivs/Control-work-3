@@ -7,13 +7,8 @@ import java.util.Date;
 public class DateConverter {
         public static Date convertStringToDate(String dateString) throws ParseException {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
-        // dateFormat.setLenient(false); // Установка строгого режима
-
-        // Преобразование строки в дату
         Date date = dateFormat.parse(dateString);
-
         return date;
-
     }
 
         public static Date easyConv(String dateString)  {
@@ -25,7 +20,7 @@ public class DateConverter {
             return date;
         } catch (Exception e) {
             return new Date();
-            // TODO: handle exception
+            
         }
         
 
